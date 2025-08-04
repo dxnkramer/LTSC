@@ -1,22 +1,22 @@
-<Configuration ID="e90b0315-901b-4251-a5e9-379336e99f06">
-  <Add OfficeClientEdition="64" Channel="PerpetualVL2024" OfficeMgmtCOM="TRUE">
-    <Product ID="VisioPro2024Volume" PIDKEY="B7TN8-FJ8V3-7QYCP-HQPMV-YY89G">
+<Configuration ID="4df1b607-fb01-4b38-85d3-465d18bfe798">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024" OfficeMgmtCOM="TRUE" MigrateArch="TRUE">
+    <Product ID="ProPlus2024Volume">
       <Language ID="en-gb" />
       <Language ID="en-us" />
+      <Language ID="MatchPreviousMSI" />
       <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
     </Product>
-    <Product ID="ProPlus2024Volume" PIDKEY="XJ2XN-FW8RK-P4HMP-DKDBV-GCVGB">
+    <Product ID="VisioPro2024Volume">
       <Language ID="en-gb" />
       <Language ID="en-us" />
+      <Language ID="MatchPreviousMSI" />
       <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
     </Product>
-    <Product ID="ProjectPro2024Volume" PIDKEY="FQQ23-N4YCY-73HQ3-FM9WC-76HF4">
+    <Product ID="ProjectPro2024Volume">
       <Language ID="en-gb" />
       <Language ID="en-us" />
+      <Language ID="MatchPreviousMSI" />
       <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />
