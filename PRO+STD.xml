@@ -1,0 +1,53 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024" OfficeMgmtCOM="TRUE">
+
+    <!-- Office Pro Plus 2024 -->
+    <Product ID="ProPlus2024Volume">
+      <Language ID="en-gb" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+
+    <!-- Visio Standard 2024 -->
+    <Product ID="VisioStd2024Volume">
+      <Language ID="en-gb" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+
+    <!-- Visio Professional 2024 -->
+    <Product ID="VisioPro2024Volume">
+      <Language ID="en-gb" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+
+    <!-- Project Standard 2024 -->
+    <Product ID="ProjectStd2024Volume">
+      <Language ID="en-gb" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+
+    <!-- Project Professional 2024 -->
+    <Product ID="ProjectPro2024Volume">
+      <Language ID="en-gb" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+
+  </Add>
+
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <RemoveMSI />
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
